@@ -46,7 +46,7 @@ export function CalculatorApp() {
       <div className="container">
     <h1>calc</h1>
       <div className="content">
-    <p>theme</p>
+    <p>THEME</p>
     <div className="new-div">
     <div className="circle"></div>
 
