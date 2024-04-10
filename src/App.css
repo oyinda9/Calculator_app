@@ -5,19 +5,68 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
+  background-color: #2f3d55;
+}
+.container {
+  display: flex;
+  
+}
+
+.content {
+  display: flex;
+ padding-left: 300px;
+ padding-top: 20px;
+}
+.content  p{
+color: white;
+}
+.new-div {
+  width: 50px;
+  height: 10px;
+  background-color: white;
+  border-radius: 5px;
+  float: right;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.circle {
+  width: 10px; 
+  height: 10px;
+  background-color: rgb(210, 84, 16); 
+  border-radius: 50%; 
+}
+
+h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  float: left;
+}
+h3{
+  float: right;
+}
+.togglebar{
+  width: 30px;
+  height: 20px;
+  background-color: yellow;
+  float: right;
+ 
 }
 .calculator{
-  background-color: blue;
-  height: 460px;
+  background-color: rgb(15, 16, 46);
+  height: 370px;
   width: 500px;
-  border-radius: 20px;
+  border-radius: 10px;
   border: 2px solid black;
 }
 input{
-  width: 493px;
-  height: 90px;
-  border-radius: 20px 20px 0 0;
+  width: 500px;
+  height: 60px;
+  border-radius: 10px;
   font-size: 30px;
+  margin-bottom: 20px;
+  text-align: right;
+  background-color:  rgb(8, 9, 23);
+  color: white;
 }
 .buttonClass button{
  display: inline-block;
@@ -30,14 +79,16 @@ font-size: 30px;
 padding: 10px;
 margin: 10px;
 text-align: center;
-border: 3px solid black;
-
-
+background-color: white;
+color:black;
 }
+
+
 button{
-  background-color: white;
-  color: black;
-  border-radius: 3px;
+
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth effect */
+  transition: box-shadow 0.3s, transform 0.3s;
   
 }
 
